@@ -2,10 +2,11 @@
 Module 17
 
 ### Overview of the analysis:
-
+US outdoors review from of Amazon review datasets was picked and perform the ETL to extract the dataset, transform the data, connect to ny AWS RDS instance, and load the transformed data into pgAdmin. Next, I furthere perform analysis using Jupyternotebook to determine if there is any bias toward favorable reviews from Vine members in selected dataset.
 
 ### Results: 
 
+![image](https://github.com/jilldvn/Amazon_Vine_Analysis/blob/main/image/Rview_Five_Star_Vine.png)
 
 #### 1. How many Vine reviews and non-Vine reviews were there?
 - paid_reviews_count (vine): 3137,
